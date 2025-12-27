@@ -45,10 +45,15 @@ class Circle(Shape):
         return self.radius * self.radius*3.14
 
 rec=Rectangle()
+
 cir=Circle()#object created for the class 'Rectangle'
+
 #object created for the class 'Circle'
+
 print("Area of a rectangle:", rec.calculate_area()) #call to 'calculate_area' method defined inside the class 'Rectangle'
+
 print("Area of a circle:", cir.calculate_area()) #call to 'calculate_area' method defined inside the class 'Circle'.
+
 ## Output
 <img width="1049" height="187" alt="image" src="https://github.com/user-attachments/assets/ee4c170b-d203-49be-90d5-4ca085f104f5" />
 
